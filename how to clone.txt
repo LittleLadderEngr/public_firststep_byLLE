@@ -1,0 +1,13 @@
+[ advance preparation ]
+I(you) have to install Git applicaion in advance. I don't know how to install for Mac PC. I have seen on the web that already installed in Mac. but, that version may be outdated and you may need to update it.
+if my(your) pc is Windows, need to install from this url : https://git-scm.com/download/win
+
+[ how to clone to my(your) local PC ]
+  1. at first, I(you) create a folder(directory) on my(your) any place.
+  2. start "Git Bash"(or any tool).
+  3. input following command and enter key.
+    $ git clone [url] (e.g https://github.com/LittleLadderEngr/public_firststep_byLLE.git)
+  4. if I(you) wait for a while, I(you) can show some message and done.
+  5. confirm my(your) pc's folder(directory). surely, I(you) can find some file or document!
+
+
