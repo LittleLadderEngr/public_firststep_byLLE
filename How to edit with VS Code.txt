@@ -1,0 +1,20 @@
+[ VS Code で HTML 編集 ]
+
+-1- リアルタイムプレビュー
+ローカルのサーバーを立ち上げてブラウザでプレビューしながら編集する方法。
+1.1. Liver Server (拡張機能)
+VS Code の左サイドバーにある「拡張機能」(Extensions)（「ファイル」「検索」などのボタンの下）をクリックし、検索Boxに「Live Server」を検索し、インストールする。
+1.2. HTMLファイルがある”フォルダの選択”
+VS Code の「ファイル」メニューから「フォルダを開く」でワークスペースを切り替える。あくまで”ファイルを開く”のではなく”フォルダを開く”。
+1.3. Liver Serverの起動
+VS Code の画面右下（Status Bar内）の「Go Live」をクリックし、Live Server を起動する。起動すると既定のブラウザに HTML ファイルの内容が表示される。
+1.4. HTML の編集
+VS Code で HTML ファイルを選択すると編集でき、セーブすると起動しているブラウザのページ反映される。
+1.5. Liver Server の停止
+VS Code の画面右下（Status Bar内）の「Port : ????」をクリックし Liver Server を停止する。
+
+-2- VS Code の UI 上でプレビューする
+2.1. HTML Preview（拡張機能）
+VS Code の左サイドバーにある「拡張機能」(Extensions)（「ファイル」「検索」などのボタンの下）をクリックし、検索Boxに「HTML Preview」を検索し、インストールする。
+2.2. Preview の表示
+「Ctrl + Shift + P」をクリックし検索Boxから「HTML : Open Preview to the Site」を選ぶか、HTML ファイルタブで右クリックから「Preview」を選ぶと、VS Code 内にプレビューウィンドウが表示される。ちなみにこちらは編集した端から反映される。
